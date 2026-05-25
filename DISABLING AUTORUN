@@ -1,11 +1,9 @@
 # Disabling AutoRun in Windows
 
 ## Objective
-
 Disable AutoRun and AutoPlay functionality in Windows to prevent removable media such as USB drives, CDs, DVDs, and external storage devices from automatically launching applications when connected to a computer.
 
 ## Why Disable AutoRun?
-
 AutoRun and AutoPlay are convenience features that automatically execute programs or display content when removable media is inserted. Attackers can exploit these features to distribute malware through infected USB devices.
 
 Disabling AutoRun helps:
@@ -15,77 +13,45 @@ Disabling AutoRun helps:
 - Reduce the risk of unauthorized software installation
 - Support security hardening best practices
 
----
-
 # Method 1: Disable AutoRun Using Control Panel
 
 ## Step 1
-
 Open Control Panel.
 
 ### Option A
 
 Press:
-
-```text
 Windows + R
-```
 
 Type:
-
-```text
 control
-```
 
 Click **OK**.
 
 ### Option B
 
 Open the Start Menu and search for:
-
-```text
 Control Panel
-```
-
----
 
 ## Step 2
 
 Select:
-
-```text
 Hardware and Sound
-```
 
 Then click:
-
-```text
 AutoPlay
-```
-
----
 
 ## Step 3
-
 Uncheck:
-
-```text
 Use AutoPlay for all media and devices
-```
-
----
 
 ## Step 4
-
 Click:
-
-```text
 Save
-```
 
 The system will no longer automatically launch programs when removable media is inserted.
 
----
+
 
 # Method 2: Disable AutoRun Using Windows Settings
 
@@ -94,58 +60,31 @@ The system will no longer automatically launch programs when removable media is 
 Open Settings.
 
 Press:
-
-```text
 Windows + I
-```
 
 Or select:
-
-```text
 Start Menu > Settings
-```
-
----
 
 ## Step 2
 
 Navigate to:
-
-```text
 Bluetooth & devices
-```
 
 Select:
-
-```text
 AutoPlay
-```
-
----
 
 ## Step 3
-
 Turn AutoPlay:
-
-```text
 OFF
-```
-
----
 
 ## Step 4
-
 Verify the setting displays:
-
-```text
 AutoPlay = Off
-```
 
 This prevents Windows from automatically opening or running content from newly connected removable media.
 
----
 
-# Verification
+                                              # Verification
 
 To verify AutoRun is disabled:
 
@@ -154,33 +93,30 @@ To verify AutoRun is disabled:
 3. Open File Explorer manually if access to the device is needed.
 4. Confirm no AutoPlay prompts appear.
 
----
 
-# Security Benefits
+
+                                              # Security Benefits
 
 ## Confidentiality
-
 Reduces the risk of unauthorized software accessing sensitive information.
 
-## Integrity
 
+## Integrity
 Helps prevent malicious software from modifying system files automatically.
 
-## Availability
 
+## Availability
 Reduces the likelihood of malware disrupting system operations.
 
----
+
 
 # Real-World Cybersecurity Scenario
-
 An employee finds a USB drive in a parking lot and inserts it into a company computer.
-
 If AutoRun is enabled, malicious software stored on the USB device could execute automatically without the user's knowledge.
+
 
 If AutoRun is disabled, the user must manually open the drive, providing an additional layer of protection and reducing the likelihood of automatic malware execution.
 
----
 
 # Lessons Learned
 
@@ -189,11 +125,11 @@ If AutoRun is disabled, the user must manually open the drive, providing an addi
 - Control Panel and Windows Settings both provide methods to disable AutoPlay functionality.
 - Preventing automatic execution helps strengthen endpoint security.
 
----
 
 # Conclusion
 
 Disabling AutoRun and AutoPlay is a simple but effective security control that reduces the risk of malware infections originating from removable media and supports secure workstation configuration practices.
+
 
 ## Lab Demonstration Video
 
